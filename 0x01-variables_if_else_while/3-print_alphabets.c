@@ -2,27 +2,26 @@
 #include <stdlib.h>
 
 /**
- * main - alphabets upper and lower
+ * main - Entry point
  *
- * Return : 0 (success)
+ * Return : Always 0 (success)
  */
 
 int main(void)
 {
-	int ch = 'a';
-	int CH = 'A';
+	char c;
 
-	while (ch <= 'z')
+	for (c = 'a'; c <= 'z'; ++c)
 	{
-		putchar(ch);
-		ch++;
-	}
-	while (CH <= 'Z')
-	{
-		putchar(CH);
-		CH++;
+		putchar(c);
 	}
 
-	putchar ('\n');
+	for (c = 'A'; c <= 'Z'; ++c)
+	{
+		putchar(c);
+	}
+
+	putchar('\n');
+
 	return (0);
 }
