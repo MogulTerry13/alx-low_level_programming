@@ -6,9 +6,9 @@
  *
  * Return: Always 0 (success)
  */
-char main(void)
+int main(void)
 {
-	char c;
+	int c;
 
 	for (c = 'a'; c <= 'z'; ++c)
 	{
