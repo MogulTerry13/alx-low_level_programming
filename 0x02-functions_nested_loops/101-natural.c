@@ -7,13 +7,18 @@
 
 int main(void)
 {
-	int i, sum = 0;
+	int c = 0;
+	int sum = 0;
 
-	for (i = 0; i < 1024; i++)
+	while (c < 1024)
 	{
-		if ((i % 3) == 0 || (i % 5) == 0)
-			sum += 1;
+		if (c % 3 == 0 || c % 5 == 0)
+		{
+			sum += c;
+		}
+
+		c++;
 	}
-	printf("%d\n", sum);
+	printf("%i\n", sum);
 	return (0);
 }
