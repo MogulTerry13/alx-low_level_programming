@@ -28,8 +28,6 @@ void print_times_table(int n)
 					if (product >= 100)
 						digits++;
 					_putchar(',');
-					_putchar(' ');
-					_putchar(' ');
 
 					while (digits < 3)
 					{
