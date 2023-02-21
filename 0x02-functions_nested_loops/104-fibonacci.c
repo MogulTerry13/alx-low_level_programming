@@ -8,15 +8,15 @@
 
 int main(void)
 {
-	long long prev = 1, curr = 2, count = 0;
+	long prev = 1, curr = 2, count = 0;
 
-	printf("%lld, %lld", prev, curr);
+	printf("%ld, %ld", prev, curr);
 	count += 2;
 	while (count < 98)
 	{
-		long long next = prev + curr;
+		long next = prev + curr;
 
-		printf(", %lld", next);
+		printf(", %ld", next);
 		count++;
 		prev = curr;
 		curr = next;
