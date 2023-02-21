@@ -29,6 +29,8 @@ void print_times_table(int n)
 						digits++;
 					_putchar(',');
 					_putchar(' ');
+					_putchar(' ');
+					_putchar(' ');
 
 					while (digits < 3)
 					{
