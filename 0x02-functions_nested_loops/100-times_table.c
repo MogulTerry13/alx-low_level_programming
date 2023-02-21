@@ -31,13 +31,13 @@ void print_times_table(int n)
 
 					while (digits < 3)
 					{
-						_putchar(' ');
+						_putchar('');
 						digits++;
 					}
 					if (product >= 10)
 						_putchar((product / 10) + '0');
 					else
-						_putchar(' ');
+						_putchar('');
 					_putchar((product % 10) + '0');
 				}
 			}
