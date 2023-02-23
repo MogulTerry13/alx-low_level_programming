@@ -2,11 +2,10 @@
 #include "main.h"
 
 /**
- * main - print 0-100
- * for mult of 3 fizz
- * for mult of 5 buzz
- * mult of 3 and 5 fizzbuzz
- *
+ * main - print 0 to 100, followed by new line
+ * for mult of 3 Fizz
+ * for mult of 5 Buzz
+ * mult of 3 and 5 FizzBuzz
  * Return: 0 (success)
  */
 
@@ -18,23 +17,23 @@ int main(void)
 	{
 		if (i % 3 == 0 && i % 5 != 0)
 		{
-			printf("Fizz ");
+			printf(" Fizz");
 		}
 		else if (i % 5 == 0 && i % 3 != 0)
 		{
-			printf("Buzz ");
+			printf(" Buzz");
 		}
 		else if (i % 3 == 0 && i % 5 == 0)
 		{
-			printf("FizzBuzz ");
+			printf(" FizzBuzz");
 		}
 		else if (i == 1)
 		{
-			printf("%d ", i);
+			printf("%d", i);
 		}
 		else
 		{
-			printf("%d ", i);
+			printf(" %d", i);
 		}
 	}
 	printf("\n");
