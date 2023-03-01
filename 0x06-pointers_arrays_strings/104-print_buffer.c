@@ -12,13 +12,14 @@ void print_buffer(char *b, int size)
 {
 	int o, j, i;
 
-	o = 0;
-
 	if (size <= 0)
 	{
 		printf("\n");
 		return;
 	}
+
+	o = 0;
+
 	while (o < size)
 	{
 		j = size - o < 10 ? size - o : 10;
