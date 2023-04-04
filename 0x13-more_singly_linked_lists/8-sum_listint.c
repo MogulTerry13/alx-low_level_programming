@@ -11,6 +11,7 @@ int sum_listint(listint_t *head)
 	int i = 0;
 	listint_t *tmp = head;
 
+	/*loop to calculate sum of all data*/
 	while (tmp)
 	{
 		i += tmp->n;

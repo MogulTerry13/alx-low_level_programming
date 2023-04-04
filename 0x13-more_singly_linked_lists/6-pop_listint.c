@@ -12,6 +12,7 @@ int pop_listint(listint_t **head)
 	listint_t *tmp;
 	int n;
 
+	/*condition to check presence of head node*/
 	if (!head || !*head)
 		return (0);
 	n = (*head)->n;

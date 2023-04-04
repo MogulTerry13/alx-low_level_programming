@@ -8,11 +8,13 @@
  */
 listint_t *find_listint_loop(listint_t *head)
 {
+	/* s and f are variables to check*/
 	listint_t *s = head;
 	listint_t *f = head;
 
 	if (!head)
 		return (NULL);
+	/*loop to find a loop in a linked list*/
 	while (s && f && f->next)
 	{
 		f = f->next->next;

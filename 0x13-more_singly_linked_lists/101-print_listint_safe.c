@@ -14,6 +14,7 @@ size_t print_listint_safe(const listint_t *head);
  */
 size_t looped_listint_len(const listint_t *head)
 {
+	/* t and h are variables to check*/
 	const listint_t *t, *h;
 	size_t n = 1;
 
